@@ -1,0 +1,23 @@
+https://takeuforward.org/arrays/check-whether-a-given-number-is-even-or-odd/
+(check for 2nd method)
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    int n;
+    cout<<"enter no."<<endl;
+    cin>>n;
+    if(n%2==0){
+        cout<<"even";
+    }
+    else{
+        cout<<"odd";
+    }
+
+    return 0;
+}
+
+Time complexity: O(1)
+
+Space Complexity: O(1)

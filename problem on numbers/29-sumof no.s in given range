@@ -1,0 +1,18 @@
+https://takeuforward.org/data-structure/find-the-sum-of-numbers-in-the-given-range/
+(for 2nd method)
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+  int num1,num2,sum=0;
+  cout<<"enter 2 numbers "<<endl;
+  cin>>num1>>num2;
+  for(int i=num1; i<=num2;i++){
+      sum=sum+i;
+  }
+  cout<<"ANS is "<< sum;
+  
+    return 0;
+}
+

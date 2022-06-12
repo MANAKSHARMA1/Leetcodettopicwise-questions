@@ -1,3 +1,7 @@
+https://takeuforward.org/data-structure/find-the-smallest-element-in-an-array/
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
  
@@ -15,7 +19,9 @@ int main() {
    
     return 0;
 }
+Time Complexity: O(N*log(N))
 
+Space Complexity: O(1)
 
 
 
@@ -47,4 +53,8 @@ int main() {
   cout << "The smallest element in the array is: " << min;
   return 0;
 }
+
+Time Complexity: O(N)
+
+Space Complexity: O(1)
 

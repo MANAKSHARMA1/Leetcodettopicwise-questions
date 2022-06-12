@@ -1,0 +1,19 @@
+https://takeuforward.org/data-structure/calculate-the-power-of-a-number-binary-exponentiation/
+(for 2nd method)
+
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+   int n,power,ans=1;
+   cout<<"enter any no."<<endl;
+   cin>>n;
+   cout<<"enter power ";
+   cin>>power;
+   for(int i=1 ; i<=power;i++){
+        ans=n*ans;
+   }
+   cout<<"ans is " <<ans;
+    return 0;
+}

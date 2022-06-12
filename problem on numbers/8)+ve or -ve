@@ -1,0 +1,23 @@
+https://takeuforward.org/data-structure/check-whether-a-number-is-positive-or-negative/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    int n;
+    cout<<"enter no."<<endl;
+    cin>>n;
+    if(n>0){
+        cout<<"+ve";
+    }
+    else{
+        cout<<"-ve";
+    }
+
+    return 0;
+}
+
+Time complexity: O(1)
+
+Space Complexity: O(1)

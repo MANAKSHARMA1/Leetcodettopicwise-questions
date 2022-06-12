@@ -26,3 +26,41 @@ int main() {
    
     return 0;
 }
+
+
+
+METHOD 2
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int prime(int num){
+    int i, c=0;
+    for(int i=1; i<=num;i++){
+        if(num%i==0){
+            c++;
+        }
+    }
+    if(c==2){
+        return true;
+        
+    }
+    else{
+        return false;
+    }
+}
+ 
+int main() {
+    int num;
+    cout<<"enter no.";
+    cin>>num;
+    if(prime(num)){
+        cout<<num<<"is a prime ";
+        
+    }
+    else{
+        cout<<"not prime";
+    }
+    return 0;
+}
+

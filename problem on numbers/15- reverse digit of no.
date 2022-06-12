@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    int n,last ,reverse=0;
+    cout<<"enter no.";
+    cin>>n;
+    last =n%10;
+    while(n!=0){
+        last =n%10;
+    reverse = 10 * reverse + last;
+    n=n/10;
+        
+    }
+    cout<<"ans is "<<reverse;
+    return 0;
+}
+
+Time Complexity: O(log N)
+
+Space Complexity: O(1)

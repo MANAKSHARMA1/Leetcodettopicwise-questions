@@ -1,0 +1,14 @@
+https://takeuforward.org/data-structure/program-to-find-sum-of-gp-series/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+ int a,r,n, sum ;
+ cout<<"enter all required no.s "<<endl;
+ cin>>a>>r>>n;
+ sum = a*(pow(r,n) - 1)/(r-1);
+ cout<<"ans is "<<sum;
+ return 0;
+}

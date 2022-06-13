@@ -1,0 +1,17 @@
+https://takeuforward.org/data-structure/calculate-the-area-of-the-circle/
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int r,pi;
+    cout<<"enter radius"<<endl;
+    cin>>r;
+   int  area= 3.14 * r*r;
+    cout<<"area is "<<area;
+	return 0;
+}

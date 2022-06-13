@@ -1,0 +1,18 @@
+https://takeuforward.org/data-structure/find-sum-of-ap-series/
+(for 2 nd method)
+
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+ int a,d,n, sum ;
+ cout<<"enter all required no.s "<<endl;
+ cin>>a>>d>>n;
+ sum = (n/2)*(2*a+ (n-1)*d);
+ cout<<"ans is "<<sum;
+ return 0;
+}
+
+Time Complexity: O(1) since we are using direct formula
+Space Complexity: O(1) since no extra space is required
+

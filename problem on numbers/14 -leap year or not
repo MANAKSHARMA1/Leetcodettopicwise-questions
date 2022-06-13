@@ -1,0 +1,22 @@
+https://takeuforward.org/data-structure/check-if-given-year-is-a-leap-year-or-not/
+
+
+conditioins
+a)divide by 4 , 400 but not by 100
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<" Enter any year "<<endl;
+    cin>>n;
+    if(n%4==0){
+        cout<<n<<" is leap year";
+    }
+    else{
+        cout<<"not a leap year";
+    }
+	return 0;
+}

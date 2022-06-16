@@ -1,0 +1,53 @@
+METHOD 1
+WITHOUT taking i/p
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+ {   
+//   int n ,a[10],sum =0;
+//   cout<<"enter no  of elements in array ";
+//   cin>>n;
+//   cout<<" enter elements ";
+//   cin>>a[n];
+   int n=3,sum=0,arr[]={1,2,3};
+  for(int i=0;i<n; i++)
+
+{
+       sum = sum + arr[i];
+       cout<<"ans is  "<<sum<<endl;
+       //yeh waala likhenge to one by one addition hokar dikhayega
+       
+   }
+// cout<<"ans is  "<<sum<<endl;
+       //yeh waala likhenge to total addition dikhayega
+    
+	return 0;
+}
+
+
+METHOD 2
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+ {   
+  int n ,i,a[10],sum =0;
+  cout<<"enter no  of elements in array ";
+  cin>>n;
+  cout<<" enter elements ";
+   for( i=0;i<n; i++){
+  cin>>a[i];
+   }
+  for( i=0;i<n; i++)
+
+    {
+       sum = sum + a[i];
+    }
+ cout<<"ans is  "<<sum<<endl;
+       
+	return 0;
+}
+
+

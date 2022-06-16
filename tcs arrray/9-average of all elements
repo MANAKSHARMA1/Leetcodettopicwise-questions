@@ -1,0 +1,26 @@
+use of DOUBLE is necessary here
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+ {   
+  int i,n,a[10];
+  cout<<"enter no . of elements "<<endl;
+  cin>>n;
+  cout<<"enter the elements "<<endl;
+  double sum=0;
+  for( i=0;i<n; i++){
+  cin>>a[i];
+   }
+    for( i=0;i<n; i++){
+  sum =  sum + a[i];
+  
+   }
+   
+    double avg = sum /n;
+    
+   cout<<endl;
+cout<<"average is "<<avg;
+	return 0;
+}

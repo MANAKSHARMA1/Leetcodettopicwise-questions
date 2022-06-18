@@ -1,0 +1,27 @@
+https://takeuforward.org/data-structure/check-if-the-number-is-an-abundant-number-or-not/
+
+
+#include <iostream>
+using namespace std;
+int main(){
+ int n,i,sum=0;
+ cin>>n;
+ cout<<endl;
+ for(i =1; i<=n;i++){
+     if(n%i==0){
+         cout<<i <<endl;
+         sum+= i;
+         cout<<"sum is "<<sum<<endl;
+         if(sum>n){
+             cout<<"abunadant no. ";
+         }
+         else{
+             cout<<" not abundant no. ";
+         }
+         
+     }
+ }
+ 
+ 
+    return 0;
+}

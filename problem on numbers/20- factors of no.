@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-   int i,n,mul=n;
+   int i,n;
    cin>>n;
    cout<<endl;
    for( i=1;i<=n;i++){

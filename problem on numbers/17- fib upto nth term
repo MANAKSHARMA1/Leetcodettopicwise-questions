@@ -1,0 +1,39 @@
+https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/
+
+
+// ek term aage ka aayega always 
+// keep remeber
+
+#include <iostream>
+
+using namespace std;
+
+
+
+int main(){
+    int secondlast=0, last=1,current;
+    int n;
+    cin>>n;
+    if(n==0 ){
+        cout<<0;
+    }
+    else if(n==1){
+        cout<<1;
+    }
+    else{
+        cout << secondlast << " " << last << " ";
+        for(int i=2;i<=n;i++){
+            
+            current = last + secondlast;
+            secondlast= last;
+            last= current;
+            cout<<current<<" ";
+            //yahan likhne par all terms aayenge
+        }
+       // cout<<current<<" ";   yahan par likhne par whi term aayega jo chahiye
+        
+    }
+
+
+    return 0;
+}

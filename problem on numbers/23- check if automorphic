@@ -1,0 +1,26 @@
+
+#include <iostream>
+using namespace std;
+int main(){
+    
+ int n,mul;
+ cin>>n;
+ mul = n*n ;
+ cout<<mul<<endl;
+ // Check if last digit is equal or not
+ if(mul%10 != n% 10){
+     cout<<"not a automorphic no ." ;
+     
+     // Reducing the number and its square
+    //  n = n/10;
+    //  mul=mul/10;
+    
+    //upar ke 2 lines ke code krskte hain use if needed or if want
+ }
+ else{
+     cout<<"automorphic no."<<endl;
+ }
+ 
+ 
+    return 0;
+}

@@ -1,0 +1,34 @@
+
+#include <iostream>
+using namespace std;
+int smallestElement(int arr[], int n) {
+ 
+  int min = arr[0];
+  for (int i = 0; i < n; i++) {
+    if (min > arr[i]) {
+      min = arr[i];
+    }
+  }
+  return min;
+}
+int largestElement(int arr[], int n) {
+ 
+  int max = arr[0];
+  for (int i = 0; i < n; i++) {
+    if (max < arr[i]) {
+      max = arr[i];
+    }
+  }
+  return max;
+}
+int main() {
+  int arr1[] = {2,5,1,3,10};
+  int n = 5;
+  int max = largestElement(arr1, n);
+  cout << "The largest element in the array is: " << max << endl;
+  int min = smallestElement(arr1, n);
+  cout << "The smallest element in the array is: " << min << endl;
+ 
+  
+  return 0;
+}

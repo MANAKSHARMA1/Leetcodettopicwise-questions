@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,shakes;
+    cout<<"enter people" ;
+    cin>>n;
+    shakes =n*(n-1)/2;
+    cout<<"total shakes are "<<shakes;
+    return 0;
+}

@@ -1,0 +1,15 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int twice = n;
+    cout<<(twice<<1);
+    //<< is left shift operator is use to double 
+    //  >> is right shift operator is use to half the value
+    return 0;
+}

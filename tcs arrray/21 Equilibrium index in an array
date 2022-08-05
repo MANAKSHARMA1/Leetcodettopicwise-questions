@@ -22,6 +22,6 @@ int main() {
   int n = 5;
   int arr[] = { 2, 3, -1, 8, 4 };
   int equilibriumidx = findEquilibriumIdx(arr, n);
-  cout << equilibriumidx << endl;
+  cout << "index is "<<equilibriumidx << endl;
   return 0;
 }

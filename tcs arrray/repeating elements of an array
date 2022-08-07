@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void repeatingelements(vector<int>arr)
+{
+    sort(arr.begin(),arr.end());
+    
+    cout<<"repeating elements are "<<endl;
+    for(int i =0;i<arr.size()-1;i++)
+    if(arr[i]==arr[i+1])
+    cout<<arr[i]<<" ";
+}
+
+
+int main() {
+    vector<int>arr ={2,4,1,2,6,4,7};
+    repeatingelements(arr);
+    
+    return 0;
+}

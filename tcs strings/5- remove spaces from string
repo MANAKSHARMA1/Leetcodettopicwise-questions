@@ -1,0 +1,9 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main() {
+   string mystr = "This is C++ Programming Language";
+   cout << "String with Spaces : " << mystr << endl;
+   remove(mystr.begin(), mystr.end(), ' ');
+   cout << "String without Spaces : " << mystr;
+}

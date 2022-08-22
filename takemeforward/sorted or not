@@ -1,0 +1,29 @@
+https://takeuforward.org/data-structure/check-if-an-array-is-sorted/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    int n=4,c=0;
+  int arr[]= {8,9,10,16};
+  
+  
+  
+  for(int i=1;i<n;i++)
+  {
+     if(arr[i]<arr[i-1])
+    {
+     c++;
+        break; 
+    }
+    
+  } if(c!=0)
+  cout<<"unsorted"<<endl;
+  else
+     cout<<"sorted";
+
+    return 0;
+}

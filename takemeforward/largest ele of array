@@ -1,3 +1,6 @@
+2nd method
+https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/
+
 #include <iostream>
 using namespace std;
 int largestelement(int arr[],int n){

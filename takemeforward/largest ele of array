@@ -1,1 +1,23 @@
+#include <iostream>
+using namespace std;
+int largestelement(int arr[],int n){
+    int max= arr[0];
+    for(int i=0;i<n;i++){
+        if(max<arr[i]){
+        max= arr[i];
+        }
+    }  
+        return max;
+}
+int main()
+{
+    int n=5;
+   int arr[]={2,4,1,9,6};
+   int max=largestelement(arr,n);
+  cout<<"largest element is : "<<max;
+
+   
+
+    return 0;
+}
 

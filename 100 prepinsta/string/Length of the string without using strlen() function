@@ -10,6 +10,9 @@ int i;\
 cout << "\nEnter a string: ";
 cin >> s;
 for(i = 0; s[i] != '\0'; ++i);
+
+// '\0' is NULL character
+
 cout << "\nLength of string : " << i;
 cout << endl;
 return 0;

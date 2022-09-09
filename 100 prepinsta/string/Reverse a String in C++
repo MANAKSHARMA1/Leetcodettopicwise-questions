@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+ void isreverse(string S)
+ {
+     for(int i = S.length()-1;i>=0;i--){
+         cout<<S[i];
+     }
+
+
+ }
+int main(){
+    string S="abcd";
+    isreverse(S);
+    return 0;
+}
